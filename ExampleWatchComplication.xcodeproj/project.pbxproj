@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DA71CB324657F980073D155 /* ExampleWatchComplication WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8DA71CB224657F980073D155 /* ExampleWatchComplication WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8DA71CB324657F980073D155 /* ExampleComplication.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8DA71CB224657F980073D155 /* ExampleComplication.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8DA71CB924657F980073D155 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA71CB724657F980073D155 /* Interface.storyboard */; };
 		8DA71CBB24657F9A0073D155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA71CBA24657F9A0073D155 /* Assets.xcassets */; };
-		8DA71CC224657F9A0073D155 /* ExampleWatchComplication WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8DA71CC124657F9A0073D155 /* ExampleWatchComplication WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8DA71CC224657F9A0073D155 /* ExampleComplication.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8DA71CC124657F9A0073D155 /* ExampleComplication.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8DA71CC724657F9A0073D155 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA71CC624657F9A0073D155 /* ContentView.swift */; };
 		8DA71CC924657F9A0073D155 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA71CC824657F9A0073D155 /* HostingController.swift */; };
 		8DA71CCB24657F9A0073D155 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA71CCA24657F9A0073D155 /* ExtensionDelegate.swift */; };
@@ -19,6 +19,52 @@
 		8DA71CD124657F9A0073D155 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA71CD024657F9A0073D155 /* ComplicationController.swift */; };
 		8DA71CD324657F9B0073D155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA71CD224657F9B0073D155 /* Assets.xcassets */; };
 		8DA71CD624657F9B0073D155 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA71CD524657F9B0073D155 /* Preview Assets.xcassets */; };
+		8DAA3B4A2467C44A00417860 /* CircularSmallRingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B492467C44A00417860 /* CircularSmallRingImage.swift */; };
+		8DAA3B4C2467C59500417860 /* CircularSmallSimpleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B4B2467C59500417860 /* CircularSmallSimpleImage.swift */; };
+		8DAA3B4E2467C71900417860 /* CircularSmallStackImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B4D2467C71900417860 /* CircularSmallStackImage.swift */; };
+		8DAA3B502467C7B900417860 /* CircularSmallRingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B4F2467C7B900417860 /* CircularSmallRingText.swift */; };
+		8DAA3B522467C85300417860 /* CircularSmallSimpleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B512467C85300417860 /* CircularSmallSimpleText.swift */; };
+		8DAA3B542467C8CE00417860 /* CircularSmallStackText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B532467C8CE00417860 /* CircularSmallStackText.swift */; };
+		8DAA3B572467C9AA00417860 /* ExtraLargeRingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B562467C9AA00417860 /* ExtraLargeRingImage.swift */; };
+		8DAA3B592467CA9E00417860 /* ExtraLargeSimpleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B582467CA9E00417860 /* ExtraLargeSimpleImage.swift */; };
+		8DAA3B5B2467CB1600417860 /* ExtraLargeStackImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B5A2467CB1600417860 /* ExtraLargeStackImage.swift */; };
+		8DAA3B5D2467CBAD00417860 /* ExtraLargeColumnsText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B5C2467CBAD00417860 /* ExtraLargeColumnsText.swift */; };
+		8DAA3B5F2467CC2E00417860 /* ExtraLargeRingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B5E2467CC2E00417860 /* ExtraLargeRingText.swift */; };
+		8DAA3B612467CCD100417860 /* ExtraLargeSimpleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B602467CCD100417860 /* ExtraLargeSimpleText.swift */; };
+		8DAA3B632467CD3C00417860 /* ExtraLargeStackText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B622467CD3C00417860 /* ExtraLargeStackText.swift */; };
+		8DAA3B662467CEEA00417860 /* ModularSmallRingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B652467CEEA00417860 /* ModularSmallRingImage.swift */; };
+		8DAA3B682467CFA100417860 /* ModularSmallSimpleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B672467CFA100417860 /* ModularSmallSimpleImage.swift */; };
+		8DAA3B6A2467D01000417860 /* ModularSmallStackImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B692467D01000417860 /* ModularSmallStackImage.swift */; };
+		8DAA3B6C2467D09000417860 /* ModularSmallColumnsText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B6B2467D09000417860 /* ModularSmallColumnsText.swift */; };
+		8DAA3B6E2467D10900417860 /* ModularSmallRingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B6D2467D10900417860 /* ModularSmallRingText.swift */; };
+		8DAA3B702467D17A00417860 /* ModularSmallSimpleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B6F2467D17A00417860 /* ModularSmallSimpleText.swift */; };
+		8DAA3B722467D1DE00417860 /* ModularSmallStackText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B712467D1DE00417860 /* ModularSmallStackText.swift */; };
+		8DAA3B752467D2E500417860 /* ModularLargeStandardBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B742467D2E500417860 /* ModularLargeStandardBody.swift */; };
+		8DAA3B772467D37B00417860 /* ModularLargeTallBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B762467D37B00417860 /* ModularLargeTallBody.swift */; };
+		8DAA3B792467D40800417860 /* ModularLargeColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B782467D40800417860 /* ModularLargeColumns.swift */; };
+		8DAA3B7B2467D4B700417860 /* ModularLargeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B7A2467D4B700417860 /* ModularLargeTable.swift */; };
+		8DAA3B7E2467D59100417860 /* UtilitarianSmallFlat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B7D2467D59100417860 /* UtilitarianSmallFlat.swift */; };
+		8DAA3B802467D69400417860 /* UtilitarianSmallRingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B7F2467D69400417860 /* UtilitarianSmallRingImage.swift */; };
+		8DAA3B822467D6F300417860 /* UtilitarianSmallRingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B812467D6F300417860 /* UtilitarianSmallRingText.swift */; };
+		8DAA3B842467D75E00417860 /* UtilitarianSmallSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B832467D75E00417860 /* UtilitarianSmallSquare.swift */; };
+		8DAA3B872467D80300417860 /* UtilitarianLargeFlat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B862467D80300417860 /* UtilitarianLargeFlat.swift */; };
+		8DAA3B8A2467D8F200417860 /* GraphicCornerGaugeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B892467D8F200417860 /* GraphicCornerGaugeText.swift */; };
+		8DAA3B8C2467D9BA00417860 /* GraphicCornerStackText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B8B2467D9BA00417860 /* GraphicCornerStackText.swift */; };
+		8DAA3B8E2467DAE900417860 /* GraphicCornerCircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B8D2467DAE900417860 /* GraphicCornerCircularImage.swift */; };
+		8DAA3B902467DB4600417860 /* GraphicCornerGaugeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B8F2467DB4600417860 /* GraphicCornerGaugeImage.swift */; };
+		8DAA3B922467DC4500417860 /* GraphicCornerTextImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B912467DC4500417860 /* GraphicCornerTextImage.swift */; };
+		8DAA3B952467DCD700417860 /* GraphicCircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B942467DCD700417860 /* GraphicCircularImage.swift */; };
+		8DAA3B972467DD6300417860 /* GraphicCircularStackImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B962467DD6300417860 /* GraphicCircularStackImage.swift */; };
+		8DAA3B992467DDC700417860 /* GraphicCircularStackText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B982467DDC700417860 /* GraphicCircularStackText.swift */; };
+		8DAA3B9B2467DE3C00417860 /* GraphicCircularClosedGaugeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B9A2467DE3C00417860 /* GraphicCircularClosedGaugeImage.swift */; };
+		8DAA3B9D2467DEB700417860 /* GraphicCircularOpenGaugeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B9C2467DEB700417860 /* GraphicCircularOpenGaugeImage.swift */; };
+		8DAA3B9F2467DF3200417860 /* GraphicCircularClosedGaugeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3B9E2467DF3200417860 /* GraphicCircularClosedGaugeText.swift */; };
+		8DAA3BA12467DFAF00417860 /* GraphicCircularOpenGaugeSimpleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3BA02467DFAF00417860 /* GraphicCircularOpenGaugeSimpleText.swift */; };
+		8DAA3BA32467E04300417860 /* GraphicCircularOpenGaugeRangeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3BA22467E04300417860 /* GraphicCircularOpenGaugeRangeText.swift */; };
+		8DAA3BA62467E0D800417860 /* GraphicBezelCircularText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3BA52467E0D800417860 /* GraphicBezelCircularText.swift */; };
+		8DAA3BA92467E19E00417860 /* GraphicRectangularStandardBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3BA82467E19E00417860 /* GraphicRectangularStandardBody.swift */; };
+		8DAA3BAB2467E29200417860 /* GraphicRectangularTextGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3BAA2467E29200417860 /* GraphicRectangularTextGauge.swift */; };
+		8DAA3BAD2467E32100417860 /* GraphicRectangularLargeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA3BAC2467E32100417860 /* GraphicRectangularLargeImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +91,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8DA71CC224657F9A0073D155 /* ExampleWatchComplication WatchKit Extension.appex in Embed App Extensions */,
+				8DA71CC224657F9A0073D155 /* ExampleComplication.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +102,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				8DA71CB324657F980073D155 /* ExampleWatchComplication WatchKit App.app in Embed Watch Content */,
+				8DA71CB324657F980073D155 /* ExampleComplication.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,12 +110,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8DA71CAE24657F980073D155 /* ExampleWatchComplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleWatchComplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA71CB224657F980073D155 /* ExampleWatchComplication WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExampleWatchComplication WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA71CAE24657F980073D155 /* ExampleComplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleComplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA71CB224657F980073D155 /* ExampleComplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleComplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA71CB824657F980073D155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		8DA71CBA24657F9A0073D155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA71CBC24657F9A0073D155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DA71CC124657F9A0073D155 /* ExampleWatchComplication WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ExampleWatchComplication WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA71CC124657F9A0073D155 /* ExampleComplication.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExampleComplication.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA71CC624657F9A0073D155 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DA71CC824657F9A0073D155 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		8DA71CCA24657F9A0073D155 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +126,52 @@
 		8DA71CD524657F9B0073D155 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DA71CD724657F9B0073D155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA71CD824657F9B0073D155 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8DAA3B492467C44A00417860 /* CircularSmallRingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSmallRingImage.swift; sourceTree = "<group>"; };
+		8DAA3B4B2467C59500417860 /* CircularSmallSimpleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSmallSimpleImage.swift; sourceTree = "<group>"; };
+		8DAA3B4D2467C71900417860 /* CircularSmallStackImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSmallStackImage.swift; sourceTree = "<group>"; };
+		8DAA3B4F2467C7B900417860 /* CircularSmallRingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSmallRingText.swift; sourceTree = "<group>"; };
+		8DAA3B512467C85300417860 /* CircularSmallSimpleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSmallSimpleText.swift; sourceTree = "<group>"; };
+		8DAA3B532467C8CE00417860 /* CircularSmallStackText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularSmallStackText.swift; sourceTree = "<group>"; };
+		8DAA3B562467C9AA00417860 /* ExtraLargeRingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLargeRingImage.swift; sourceTree = "<group>"; };
+		8DAA3B582467CA9E00417860 /* ExtraLargeSimpleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLargeSimpleImage.swift; sourceTree = "<group>"; };
+		8DAA3B5A2467CB1600417860 /* ExtraLargeStackImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLargeStackImage.swift; sourceTree = "<group>"; };
+		8DAA3B5C2467CBAD00417860 /* ExtraLargeColumnsText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLargeColumnsText.swift; sourceTree = "<group>"; };
+		8DAA3B5E2467CC2E00417860 /* ExtraLargeRingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLargeRingText.swift; sourceTree = "<group>"; };
+		8DAA3B602467CCD100417860 /* ExtraLargeSimpleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLargeSimpleText.swift; sourceTree = "<group>"; };
+		8DAA3B622467CD3C00417860 /* ExtraLargeStackText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLargeStackText.swift; sourceTree = "<group>"; };
+		8DAA3B652467CEEA00417860 /* ModularSmallRingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSmallRingImage.swift; sourceTree = "<group>"; };
+		8DAA3B672467CFA100417860 /* ModularSmallSimpleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSmallSimpleImage.swift; sourceTree = "<group>"; };
+		8DAA3B692467D01000417860 /* ModularSmallStackImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSmallStackImage.swift; sourceTree = "<group>"; };
+		8DAA3B6B2467D09000417860 /* ModularSmallColumnsText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSmallColumnsText.swift; sourceTree = "<group>"; };
+		8DAA3B6D2467D10900417860 /* ModularSmallRingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSmallRingText.swift; sourceTree = "<group>"; };
+		8DAA3B6F2467D17A00417860 /* ModularSmallSimpleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSmallSimpleText.swift; sourceTree = "<group>"; };
+		8DAA3B712467D1DE00417860 /* ModularSmallStackText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularSmallStackText.swift; sourceTree = "<group>"; };
+		8DAA3B742467D2E500417860 /* ModularLargeStandardBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularLargeStandardBody.swift; sourceTree = "<group>"; };
+		8DAA3B762467D37B00417860 /* ModularLargeTallBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularLargeTallBody.swift; sourceTree = "<group>"; };
+		8DAA3B782467D40800417860 /* ModularLargeColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularLargeColumns.swift; sourceTree = "<group>"; };
+		8DAA3B7A2467D4B700417860 /* ModularLargeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularLargeTable.swift; sourceTree = "<group>"; };
+		8DAA3B7D2467D59100417860 /* UtilitarianSmallFlat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitarianSmallFlat.swift; sourceTree = "<group>"; };
+		8DAA3B7F2467D69400417860 /* UtilitarianSmallRingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitarianSmallRingImage.swift; sourceTree = "<group>"; };
+		8DAA3B812467D6F300417860 /* UtilitarianSmallRingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitarianSmallRingText.swift; sourceTree = "<group>"; };
+		8DAA3B832467D75E00417860 /* UtilitarianSmallSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitarianSmallSquare.swift; sourceTree = "<group>"; };
+		8DAA3B862467D80300417860 /* UtilitarianLargeFlat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitarianLargeFlat.swift; sourceTree = "<group>"; };
+		8DAA3B892467D8F200417860 /* GraphicCornerGaugeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCornerGaugeText.swift; sourceTree = "<group>"; };
+		8DAA3B8B2467D9BA00417860 /* GraphicCornerStackText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCornerStackText.swift; sourceTree = "<group>"; };
+		8DAA3B8D2467DAE900417860 /* GraphicCornerCircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCornerCircularImage.swift; sourceTree = "<group>"; };
+		8DAA3B8F2467DB4600417860 /* GraphicCornerGaugeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCornerGaugeImage.swift; sourceTree = "<group>"; };
+		8DAA3B912467DC4500417860 /* GraphicCornerTextImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCornerTextImage.swift; sourceTree = "<group>"; };
+		8DAA3B942467DCD700417860 /* GraphicCircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCircularImage.swift; sourceTree = "<group>"; };
+		8DAA3B962467DD6300417860 /* GraphicCircularStackImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCircularStackImage.swift; sourceTree = "<group>"; };
+		8DAA3B982467DDC700417860 /* GraphicCircularStackText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCircularStackText.swift; sourceTree = "<group>"; };
+		8DAA3B9A2467DE3C00417860 /* GraphicCircularClosedGaugeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCircularClosedGaugeImage.swift; sourceTree = "<group>"; };
+		8DAA3B9C2467DEB700417860 /* GraphicCircularOpenGaugeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCircularOpenGaugeImage.swift; sourceTree = "<group>"; };
+		8DAA3B9E2467DF3200417860 /* GraphicCircularClosedGaugeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCircularClosedGaugeText.swift; sourceTree = "<group>"; };
+		8DAA3BA02467DFAF00417860 /* GraphicCircularOpenGaugeSimpleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCircularOpenGaugeSimpleText.swift; sourceTree = "<group>"; };
+		8DAA3BA22467E04300417860 /* GraphicCircularOpenGaugeRangeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicCircularOpenGaugeRangeText.swift; sourceTree = "<group>"; };
+		8DAA3BA52467E0D800417860 /* GraphicBezelCircularText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicBezelCircularText.swift; sourceTree = "<group>"; };
+		8DAA3BA82467E19E00417860 /* GraphicRectangularStandardBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicRectangularStandardBody.swift; sourceTree = "<group>"; };
+		8DAA3BAA2467E29200417860 /* GraphicRectangularTextGauge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicRectangularTextGauge.swift; sourceTree = "<group>"; };
+		8DAA3BAC2467E32100417860 /* GraphicRectangularLargeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicRectangularLargeImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +197,9 @@
 		8DA71CAF24657F980073D155 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DA71CAE24657F980073D155 /* ExampleWatchComplication.app */,
-				8DA71CB224657F980073D155 /* ExampleWatchComplication WatchKit App.app */,
-				8DA71CC124657F9A0073D155 /* ExampleWatchComplication WatchKit Extension.appex */,
+				8DA71CAE24657F980073D155 /* ExampleComplication.app */,
+				8DA71CB224657F980073D155 /* ExampleComplication.app */,
+				8DA71CC124657F9A0073D155 /* ExampleComplication.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +217,16 @@
 		8DA71CC524657F9A0073D155 /* ExampleWatchComplication WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8DAA3B482467C42400417860 /* CircularSmall */,
+				8DAA3B552467C97800417860 /* ExtraLarge */,
+				8DAA3B642467CEC600417860 /* ModularSmall */,
+				8DAA3B732467D29400417860 /* ModularLarge */,
+				8DAA3B7C2467D53100417860 /* UtilitarianSmall */,
+				8DAA3B852467D7E500417860 /* UtilitarianLarge */,
+				8DAA3B882467D8C800417860 /* GraphicCorner */,
+				8DAA3B932467DCC100417860 /* GraphicCircular */,
+				8DAA3BA42467E0C000417860 /* GraphicBezel */,
+				8DAA3BA72467E18000417860 /* GraphicRectangular */,
 				8DA71CC624657F9A0073D155 /* ContentView.swift */,
 				8DA71CC824657F9A0073D155 /* HostingController.swift */,
 				8DA71CCA24657F9A0073D155 /* ExtensionDelegate.swift */,
@@ -147,6 +249,122 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8DAA3B482467C42400417860 /* CircularSmall */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3B492467C44A00417860 /* CircularSmallRingImage.swift */,
+				8DAA3B4B2467C59500417860 /* CircularSmallSimpleImage.swift */,
+				8DAA3B4D2467C71900417860 /* CircularSmallStackImage.swift */,
+				8DAA3B4F2467C7B900417860 /* CircularSmallRingText.swift */,
+				8DAA3B512467C85300417860 /* CircularSmallSimpleText.swift */,
+				8DAA3B532467C8CE00417860 /* CircularSmallStackText.swift */,
+			);
+			path = CircularSmall;
+			sourceTree = "<group>";
+		};
+		8DAA3B552467C97800417860 /* ExtraLarge */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3B562467C9AA00417860 /* ExtraLargeRingImage.swift */,
+				8DAA3B582467CA9E00417860 /* ExtraLargeSimpleImage.swift */,
+				8DAA3B5A2467CB1600417860 /* ExtraLargeStackImage.swift */,
+				8DAA3B5C2467CBAD00417860 /* ExtraLargeColumnsText.swift */,
+				8DAA3B5E2467CC2E00417860 /* ExtraLargeRingText.swift */,
+				8DAA3B602467CCD100417860 /* ExtraLargeSimpleText.swift */,
+				8DAA3B622467CD3C00417860 /* ExtraLargeStackText.swift */,
+			);
+			path = ExtraLarge;
+			sourceTree = "<group>";
+		};
+		8DAA3B642467CEC600417860 /* ModularSmall */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3B652467CEEA00417860 /* ModularSmallRingImage.swift */,
+				8DAA3B672467CFA100417860 /* ModularSmallSimpleImage.swift */,
+				8DAA3B692467D01000417860 /* ModularSmallStackImage.swift */,
+				8DAA3B6B2467D09000417860 /* ModularSmallColumnsText.swift */,
+				8DAA3B6D2467D10900417860 /* ModularSmallRingText.swift */,
+				8DAA3B6F2467D17A00417860 /* ModularSmallSimpleText.swift */,
+				8DAA3B712467D1DE00417860 /* ModularSmallStackText.swift */,
+			);
+			path = ModularSmall;
+			sourceTree = "<group>";
+		};
+		8DAA3B732467D29400417860 /* ModularLarge */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3B742467D2E500417860 /* ModularLargeStandardBody.swift */,
+				8DAA3B762467D37B00417860 /* ModularLargeTallBody.swift */,
+				8DAA3B782467D40800417860 /* ModularLargeColumns.swift */,
+				8DAA3B7A2467D4B700417860 /* ModularLargeTable.swift */,
+			);
+			path = ModularLarge;
+			sourceTree = "<group>";
+		};
+		8DAA3B7C2467D53100417860 /* UtilitarianSmall */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3B7D2467D59100417860 /* UtilitarianSmallFlat.swift */,
+				8DAA3B7F2467D69400417860 /* UtilitarianSmallRingImage.swift */,
+				8DAA3B812467D6F300417860 /* UtilitarianSmallRingText.swift */,
+				8DAA3B832467D75E00417860 /* UtilitarianSmallSquare.swift */,
+			);
+			path = UtilitarianSmall;
+			sourceTree = "<group>";
+		};
+		8DAA3B852467D7E500417860 /* UtilitarianLarge */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3B862467D80300417860 /* UtilitarianLargeFlat.swift */,
+			);
+			path = UtilitarianLarge;
+			sourceTree = "<group>";
+		};
+		8DAA3B882467D8C800417860 /* GraphicCorner */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3B892467D8F200417860 /* GraphicCornerGaugeText.swift */,
+				8DAA3B8B2467D9BA00417860 /* GraphicCornerStackText.swift */,
+				8DAA3B8D2467DAE900417860 /* GraphicCornerCircularImage.swift */,
+				8DAA3B8F2467DB4600417860 /* GraphicCornerGaugeImage.swift */,
+				8DAA3B912467DC4500417860 /* GraphicCornerTextImage.swift */,
+			);
+			path = GraphicCorner;
+			sourceTree = "<group>";
+		};
+		8DAA3B932467DCC100417860 /* GraphicCircular */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3B942467DCD700417860 /* GraphicCircularImage.swift */,
+				8DAA3B962467DD6300417860 /* GraphicCircularStackImage.swift */,
+				8DAA3B982467DDC700417860 /* GraphicCircularStackText.swift */,
+				8DAA3B9A2467DE3C00417860 /* GraphicCircularClosedGaugeImage.swift */,
+				8DAA3B9C2467DEB700417860 /* GraphicCircularOpenGaugeImage.swift */,
+				8DAA3B9E2467DF3200417860 /* GraphicCircularClosedGaugeText.swift */,
+				8DAA3BA02467DFAF00417860 /* GraphicCircularOpenGaugeSimpleText.swift */,
+				8DAA3BA22467E04300417860 /* GraphicCircularOpenGaugeRangeText.swift */,
+			);
+			path = GraphicCircular;
+			sourceTree = "<group>";
+		};
+		8DAA3BA42467E0C000417860 /* GraphicBezel */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3BA52467E0D800417860 /* GraphicBezelCircularText.swift */,
+			);
+			path = GraphicBezel;
+			sourceTree = "<group>";
+		};
+		8DAA3BA72467E18000417860 /* GraphicRectangular */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3BA82467E19E00417860 /* GraphicRectangularStandardBody.swift */,
+				8DAA3BAA2467E29200417860 /* GraphicRectangularTextGauge.swift */,
+				8DAA3BAC2467E32100417860 /* GraphicRectangularLargeImage.swift */,
+			);
+			path = GraphicRectangular;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,7 +382,7 @@
 			);
 			name = ExampleWatchComplication;
 			productName = ExampleWatchComplication;
-			productReference = 8DA71CAE24657F980073D155 /* ExampleWatchComplication.app */;
+			productReference = 8DA71CAE24657F980073D155 /* ExampleComplication.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		8DA71CB124657F980073D155 /* ExampleWatchComplication WatchKit App */ = {
@@ -181,7 +399,7 @@
 			);
 			name = "ExampleWatchComplication WatchKit App";
 			productName = "ExampleWatchComplication WatchKit App";
-			productReference = 8DA71CB224657F980073D155 /* ExampleWatchComplication WatchKit App.app */;
+			productReference = 8DA71CB224657F980073D155 /* ExampleComplication.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		8DA71CC024657F9A0073D155 /* ExampleWatchComplication WatchKit Extension */ = {
@@ -198,7 +416,7 @@
 			);
 			name = "ExampleWatchComplication WatchKit Extension";
 			productName = "ExampleWatchComplication WatchKit Extension";
-			productReference = 8DA71CC124657F9A0073D155 /* ExampleWatchComplication WatchKit Extension.appex */;
+			productReference = 8DA71CC124657F9A0073D155 /* ExampleComplication.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -275,12 +493,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAA3B7E2467D59100417860 /* UtilitarianSmallFlat.swift in Sources */,
+				8DAA3B992467DDC700417860 /* GraphicCircularStackText.swift in Sources */,
+				8DAA3BA12467DFAF00417860 /* GraphicCircularOpenGaugeSimpleText.swift in Sources */,
+				8DAA3B722467D1DE00417860 /* ModularSmallStackText.swift in Sources */,
+				8DAA3B9B2467DE3C00417860 /* GraphicCircularClosedGaugeImage.swift in Sources */,
 				8DA71CC924657F9A0073D155 /* HostingController.swift in Sources */,
+				8DAA3B752467D2E500417860 /* ModularLargeStandardBody.swift in Sources */,
+				8DAA3B522467C85300417860 /* CircularSmallSimpleText.swift in Sources */,
+				8DAA3B662467CEEA00417860 /* ModularSmallRingImage.swift in Sources */,
+				8DAA3B922467DC4500417860 /* GraphicCornerTextImage.swift in Sources */,
+				8DAA3B502467C7B900417860 /* CircularSmallRingText.swift in Sources */,
 				8DA71CC724657F9A0073D155 /* ContentView.swift in Sources */,
+				8DAA3B9D2467DEB700417860 /* GraphicCircularOpenGaugeImage.swift in Sources */,
+				8DAA3B8E2467DAE900417860 /* GraphicCornerCircularImage.swift in Sources */,
+				8DAA3BA62467E0D800417860 /* GraphicBezelCircularText.swift in Sources */,
+				8DAA3B8A2467D8F200417860 /* GraphicCornerGaugeText.swift in Sources */,
+				8DAA3B5F2467CC2E00417860 /* ExtraLargeRingText.swift in Sources */,
+				8DAA3B682467CFA100417860 /* ModularSmallSimpleImage.swift in Sources */,
+				8DAA3B6E2467D10900417860 /* ModularSmallRingText.swift in Sources */,
+				8DAA3BA32467E04300417860 /* GraphicCircularOpenGaugeRangeText.swift in Sources */,
 				8DA71CCD24657F9A0073D155 /* NotificationController.swift in Sources */,
+				8DAA3B802467D69400417860 /* UtilitarianSmallRingImage.swift in Sources */,
+				8DAA3B822467D6F300417860 /* UtilitarianSmallRingText.swift in Sources */,
+				8DAA3B7B2467D4B700417860 /* ModularLargeTable.swift in Sources */,
+				8DAA3B952467DCD700417860 /* GraphicCircularImage.swift in Sources */,
+				8DAA3B842467D75E00417860 /* UtilitarianSmallSquare.swift in Sources */,
+				8DAA3B5B2467CB1600417860 /* ExtraLargeStackImage.swift in Sources */,
 				8DA71CCB24657F9A0073D155 /* ExtensionDelegate.swift in Sources */,
+				8DAA3B702467D17A00417860 /* ModularSmallSimpleText.swift in Sources */,
+				8DAA3BAD2467E32100417860 /* GraphicRectangularLargeImage.swift in Sources */,
+				8DAA3B4E2467C71900417860 /* CircularSmallStackImage.swift in Sources */,
+				8DAA3B4C2467C59500417860 /* CircularSmallSimpleImage.swift in Sources */,
+				8DAA3B542467C8CE00417860 /* CircularSmallStackText.swift in Sources */,
+				8DAA3BA92467E19E00417860 /* GraphicRectangularStandardBody.swift in Sources */,
+				8DAA3B872467D80300417860 /* UtilitarianLargeFlat.swift in Sources */,
+				8DAA3BAB2467E29200417860 /* GraphicRectangularTextGauge.swift in Sources */,
 				8DA71CCF24657F9A0073D155 /* NotificationView.swift in Sources */,
+				8DAA3B6C2467D09000417860 /* ModularSmallColumnsText.swift in Sources */,
+				8DAA3B8C2467D9BA00417860 /* GraphicCornerStackText.swift in Sources */,
+				8DAA3B5D2467CBAD00417860 /* ExtraLargeColumnsText.swift in Sources */,
 				8DA71CD124657F9A0073D155 /* ComplicationController.swift in Sources */,
+				8DAA3B632467CD3C00417860 /* ExtraLargeStackText.swift in Sources */,
+				8DAA3B792467D40800417860 /* ModularLargeColumns.swift in Sources */,
+				8DAA3B4A2467C44A00417860 /* CircularSmallRingImage.swift in Sources */,
+				8DAA3B9F2467DF3200417860 /* GraphicCircularClosedGaugeText.swift in Sources */,
+				8DAA3B902467DB4600417860 /* GraphicCornerGaugeImage.swift in Sources */,
+				8DAA3B592467CA9E00417860 /* ExtraLargeSimpleImage.swift in Sources */,
+				8DAA3B6A2467D01000417860 /* ModularSmallStackImage.swift in Sources */,
+				8DAA3B572467C9AA00417860 /* ExtraLargeRingImage.swift in Sources */,
+				8DAA3B612467CCD100417860 /* ExtraLargeSimpleText.swift in Sources */,
+				8DAA3B972467DD6300417860 /* GraphicCircularStackImage.swift in Sources */,
+				8DAA3B772467D37B00417860 /* ModularLargeTallBody.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +702,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.cloudsquare.example.watchOS.ExampleWatchComplication.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = ExampleComplication;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,7 +726,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.cloudsquare.example.watchOS.ExampleWatchComplication.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = ExampleComplication;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -481,7 +745,7 @@
 				IBSC_MODULE = ExampleWatchComplication_WatchKit_Extension;
 				INFOPLIST_FILE = "ExampleWatchComplication WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.cloudsquare.example.watchOS.ExampleWatchComplication.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ExampleComplication;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -500,7 +764,7 @@
 				IBSC_MODULE = ExampleWatchComplication_WatchKit_Extension;
 				INFOPLIST_FILE = "ExampleWatchComplication WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.cloudsquare.example.watchOS.ExampleWatchComplication.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ExampleComplication;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -517,7 +781,7 @@
 				DEVELOPMENT_TEAM = 385NJ9XLA7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.cloudsquare.example.watchOS.ExampleWatchComplication;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ExampleComplication;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -530,7 +794,7 @@
 				DEVELOPMENT_TEAM = 385NJ9XLA7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.cloudsquare.example.watchOS.ExampleWatchComplication;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ExampleComplication;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

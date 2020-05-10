@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "soccer_32px.png",
+      "idiom" : "watch",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
